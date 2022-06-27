@@ -24,9 +24,9 @@ comment * --------------------------------------------------------
 	nextLine        db 	13, 10, 0
 	tab		        db 	9, 0
 	errUsage    	db 	9,"Invalid input! Follow the usage:", 13, 10, 9
-					db 	"Exercise3.5.exe *         to display all the contents of the directory", 13, 10, 9
-					db 	"Exercise3.5.exe * /s      to display all the contents of the directory including subdirectories", 13, 10, 9
-					db 	"Exercise3.5.exe *.xxx     to display all files ending with preferred file extension (e.g. exe, dll, etc)", 13, 10, 0
+					db 	"SampleFile.exe *         to display all the contents of the directory", 13, 10, 9
+					db 	"SampleFile.exe * /s      to display all the contents of the directory including subdirectories", 13, 10, 9
+					db 	"SampleFile.exe *.xxx     to display all files ending with preferred file extension (e.g. exe, dll, etc)", 13, 10, 0
 
 	errNotFound		db 	"File not found", 13, 10, 0	
 	testinglang		db 	"----- Entered a Folder -----", 13, 10, 0		

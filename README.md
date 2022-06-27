@@ -41,7 +41,7 @@ registry_deleter.asm
        Deletes specified registry
        
 -------------------------------------------------------------------
-registry_name_appender.asm       
+registry_name_appender.asm
        Registry append
 
 -------------------------------------------------------------------

@@ -5,13 +5,13 @@ For practising assembly on masm32 and for understanding malwares (kinda?)
 
 CONTENTS:
 -------------------------------------------------------------------
-display_directory.asm
+**display_directory.asm**    
        This program simulates the capabilities of the DIR command in the 
        Windows Command Prompt. It display all the contents of the current 
        directory if there are no filters specified.
        
 -------------------------------------------------------------------
-display_directory_recursive.asm
+**display_directory_recursive.asm**    
        This program simulates the capabilities of the DIR command in the 
        Windows Command Prompt. It display all the contents of the current 
        directory if there are no filters specified. The program is able to 
@@ -20,12 +20,12 @@ display_directory_recursive.asm
        the listing all entries in the subdirectories.
        
 -------------------------------------------------------------------
-execute_process.asm
+**execute_process.asm**    
        Win32 assembly program that execute any user-defined process with 
        command-line arguments 
 
 -------------------------------------------------------------------
-execute_process_argument_withWindow.asm
+**execute_process_argument_withWindow.asm**    
        Win32 assembly program that create a Simple Window using MASM32.
        It accept Inputs from TextBox1 and TextBox2. The button performs
        the following actions:
@@ -37,20 +37,20 @@ execute_process_argument_withWindow.asm
            telling that the file does not exist.
            
 -------------------------------------------------------------------
-registry_deleter.asm
+**registry_deleter.asm**    
        Deletes specified registry
        
 -------------------------------------------------------------------
-registry_name_appender.asm
+**registry_name_appender.asm**    
        Registry append
 
 -------------------------------------------------------------------
-show_process_info.asm      
+**show_process_info.asm   **   
        Win32 assembly program that enumerates process info if the 
        command-line parameter /l=filename is specified.
 
 -------------------------------------------------------------------
-terminate_process.asm    
+**terminate_process.asm**    
        Win32 assembly program that terminates all running process 
        with the process name specified by the command-line parameter 
        /n=processname. If the command-line parameter /p=PID is specified, 

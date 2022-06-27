@@ -1,7 +1,7 @@
 # Assembly_SampleCodes
 
-**! Educational purpose only !**
-For practising assembly on masm32 and for understanding malwares (kinda?)
+**! Educational purpose only !**    
+       For practising assembly on masm32 and for understanding malwares (kinda?)
 
 CONTENTS:
 -------------------------------------------------------------------

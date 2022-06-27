@@ -1,4 +1,10 @@
-;  Registry Deleter
+; #########################################################################
+
+;   -------------------------------------------------------------------
+;   Description: Registry Deleter
+;   Author: HunterAgentKat
+;   -------------------------------------------------------------------
+
 
 include \masm32\include\masm32rt.inc
 include \masm32\include\advapi32.inc

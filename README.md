@@ -1,2 +1,2 @@
 # Assembly_SampleCodes
-For practicing assembly (masm)
+For practising assembly (masm)
